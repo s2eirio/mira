@@ -1,0 +1,14 @@
+{
+  "name": "mira",
+  "version": "1.0.0",
+  "description": "Mira - Vibe Coding Agent System",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development mode not configured yet'",
+    "build": "echo 'Build not configured yet'",
+    "test": "echo 'Tests not configured yet'"
+  },
+  "keywords": ["agent", "vibe-coding", "skill"],
+  "author": "s2eirio",
+  "license": "MIT"
+}
