@@ -1,0 +1,91 @@
+{
+  "name": "mira-engine",
+  "version": "1.0.0",
+  "description": "Mira — Vibe Coding 工业化体系",
+  "author": "Mira Team",
+  "license": "MIT",
+  "agents": {
+    "orchestrator": {
+      "name": "Mira-O",
+      "fullName": "Mira-Orchestrator",
+      "role": "总控指挥官",
+      "file": ".ai/agents/orchestrator.agent.md",
+      "skills": [
+        "mira-o-vision",
+        "mira-o-flow",
+        "mira-o-scroll",
+        "mira-o-health"
+      ]
+    },
+    "planner": {
+      "name": "Mira-P",
+      "fullName": "Mira-Planner",
+      "role": "平台规划师",
+      "file": ".ai/agents/planner.agent.md",
+      "skills": [
+        "mira-p-sniffer",
+        "mira-p-matcher",
+        "mira-p-evaluator"
+      ]
+    },
+    "designer": {
+      "name": "Mira-D",
+      "fullName": "Mira-Designer",
+      "role": "设计工匠",
+      "file": ".ai/agents/designer.agent.md",
+      "skills": [
+        "mira-d-token",
+        "mira-d-wire",
+        "mira-d-style"
+      ]
+    },
+    "builder": {
+      "name": "Mira-B",
+      "fullName": "Mira-Builder",
+      "role": "代码织造者",
+      "file": ".ai/agents/builder.agent.md",
+      "skills": [
+        "mira-b-gwt",
+        "mira-b-state",
+        "mira-b-domain",
+        "mira-b-core",
+        "mira-b-ui",
+        "mira-b-code",
+        "mira-b-anchor",
+        "mira-b-db",
+        "mira-b-contract",
+        "mira-b-repo"
+      ]
+    },
+    "checker": {
+      "name": "Mira-C",
+      "fullName": "Mira-Checker",
+      "role": "质量守护者",
+      "file": ".ai/agents/checker.agent.md",
+      "skills": [
+        "mira-c-runner",
+        "mira-c-visual",
+        "mira-c-cross",
+        "mira-c-bench",
+        "mira-c-compliance",
+        "mira-c-api"
+      ]
+    },
+    "keeper": {
+      "name": "Mira-K",
+      "fullName": "Mira-Keeper",
+      "role": "运维管家",
+      "file": ".ai/agents/keeper.agent.md",
+      "skills": [
+        "mira-k-branch",
+        "mira-k-version",
+        "mira-k-changelog",
+        "mira-k-build",
+        "mira-k-deploy",
+        "mira-k-sync"
+      ]
+    }
+  },
+  "totalAgents": 6,
+  "totalSkills": 32
+}

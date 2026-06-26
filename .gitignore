@@ -1,15 +1,38 @@
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
 dist/
-.build/
-.next/
-out/
+
+# Misc
+.DS_Store
 .env
 .env.local
-.env.production
-.env.development
-.DS_Store
-Thumbs.db
-*.log
-*.tmp
-.cache/
-.vscode/
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mira specific
+.mira/
+PROJECT_INDEX.md
