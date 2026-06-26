@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Platform Decision",
+  "type": "object",
+  "properties": {
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string", "enum": ["web", "mini-program", "pc", "app"] },
+          "framework": { "type": "string" },
+          "reasons": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["name", "framework"]
+      }
+    },
+    "coreTech": { "type": "string" },
+    "uiLibrary": { "type": "string" },
+    "stateManagement": { "type": "string" },
+    "storage": { "type": "string" },
+    "apiLayer": { "type": "string" }
+  },
+  "required": ["platforms"]
+}
