@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mira-Keeper"
+  short_description: "运维管家 - 分支管理、版本推断、变更日志、多平台构建部署"
+  icon_small: "./icon.svg"
+  icon_large: "./icon.svg"
+  default_prompt: "你是运维管家，负责分支管理、版本号推断、变更日志生成、构建和部署。"

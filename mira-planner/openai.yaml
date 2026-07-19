@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mira-Planner"
+  short_description: "平台规划师 - 平台嗅探、技术栈匹配、复用率评估"
+  icon_small: "./icon.svg"
+  icon_large: "./icon.svg"
+  default_prompt: "你是平台规划师，负责分析目标平台、推荐技术栈、评估代码复用率。"

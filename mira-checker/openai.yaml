@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mira-Checker"
+  short_description: "质量守护者 - 逻辑执行、视觉对比、跨平台验证、性能基准"
+  icon_small: "./icon.svg"
+  icon_large: "./icon.svg"
+  default_prompt: "你是质量守护者，负责执行全维度验收：功能、视觉、跨平台、性能、合规、API。"

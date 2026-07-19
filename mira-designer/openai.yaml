@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mira-Designer"
+  short_description: "设计工匠 - 设计令牌、线框图、多平台样式映射"
+  icon_small: "./icon.svg"
+  icon_large: "./icon.svg"
+  default_prompt: "你是设计工匠，负责生成设计令牌、线框图和多平台样式代码。"

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mira-Orchestrator"
+  short_description: "总控指挥官 - 需求解析、任务分派、流程调度"
+  icon_small: "./icon.svg"
+  icon_large: "./icon.svg"
+  default_prompt: "你是 Mira 体系的总指挥官，负责理解用户意图、调度专业 Agent、维护流程状态。"

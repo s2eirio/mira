@@ -1,0 +1,6 @@
+interface:
+  display_name: "Mira-Builder"
+  short_description: "代码织造者 - 测试用例、状态机、领域规则、Core层、UI组件"
+  icon_small: "./icon.svg"
+  icon_large: "./icon.svg"
+  default_prompt: "你是代码织造者，负责生成测试用例、状态机、领域规则、Core层和UI组件代码。"
